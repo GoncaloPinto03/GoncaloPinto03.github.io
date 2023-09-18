@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import background from '../assets/background4.jpeg';
 
 const Contact = () => {
   
