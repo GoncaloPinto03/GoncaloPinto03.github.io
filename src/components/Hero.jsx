@@ -8,9 +8,9 @@ const Hero = () => {
     <div name="home" className='text-black relative z-auto '>
       <div className='md:mt-[250px] mt-[200px] h-screen mx-auto text-center justify-center grid lg:grid-cols-2'>
         <div className='rounded-2xl'>
-          <h1 className='md-text-7xl sm:text-6xl text-4xl font-bold md:py-6 text-[#4825C7]'>Hey, I'm Gonçalo</h1>
+          <h1 className='md-text-7xl sm:text-6xl text-4xl font-bold md:py-6 text-[#f2f2f2]'>Hey, I'm Gonçalo</h1>
           <div className='flex justify-center items-center'>
-            <Typed className='md:text-5xl sm:text-4xl mt-[10px] text-xl font-bold pl-2 text-[#4825C7]' strings={['Software Engineer', 'Front End', 'Web Developer']} typeSpeed={120} backSpeed={140} loop/>
+            <Typed className='md:text-5xl sm:text-4xl mt-[10px] text-xl font-bold pl-2 text-[#f2f2f2]' strings={['Software Engineer', 'Front End', 'Web Developer']} typeSpeed={120} backSpeed={140} loop/>
           </div>
           <div className=''>
             <Link to="contact" smooth={true} offset={0} duration={500}>

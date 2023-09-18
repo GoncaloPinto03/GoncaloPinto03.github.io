@@ -5,12 +5,12 @@ import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
-    <div className='bg-[#4825C7] p-2 md:p-4'>
-      <footer class=" rounded-lg shadow bg-[#fef8eb] m-4">
+    <div className=' p-2 md:p-4'>
+      <footer class=" rounded-lg shadow bg-[#f2f2f2] m-4">
           <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
               <div class="md:flex md:justify-between">
                 <div>
-                    <Link to='home' class="flex items-center  cursor-pointer">
+                    <Link to='navbar' smooth={true} duration={500} class="flex items-center  cursor-pointer">
                       <img src={logo} className='w-[50px]  my-4 mr-3 rounded-[10px]' alt="casainti Logo" />
                       <span class="self-center text-2xl font-semibold whitespace-nowrap text-[#4825C7] ">GFEFP</span>
                     </Link>
@@ -19,7 +19,7 @@ const Footer = () => {
                     <div>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li>
-                          <Link to='home' smooth={true} duration={500} className='text-black font-bold cursor-pointer'>
+                          <Link to='navbar' smooth={true} duration={500} className='text-black font-bold cursor-pointer'>
                             <a class="mr-4 hover:underline md:mr-6">Home</a>
                           </Link>
                         </li>
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
             <hr class="my-6 border-[#263126] sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between">
-                <span class="text-sm text-black-500 sm:text-center dark:text-gray-400 font-semibold">© 2023 <a class="hover:underline">Gonçalo Pinto</a>. All Rights Reserved.
+                <span class="text-sm text-black-500 sm:text-center dark:text-gray-700 font-semibold">© 2023 <a class="hover:underline">Gonçalo Pinto</a>. All Rights Reserved.
                 </span>
             </div>
           </div>
