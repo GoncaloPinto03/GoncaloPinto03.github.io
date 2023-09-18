@@ -12,7 +12,7 @@ const About = () => {
               <img className='flex mx-auto rounded-[10px]' src={person} alt='/'/>
                 
             <div className='flex flex-col justify-center md:p-4 p-2 '>
-                <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-[#0C134F]'>ABOUT</h1>
+                <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-[#ffffff]'>ABOUT</h1>
                 <p className='text-justify font-semibold text-[#f2f2f2]'>I'm a third-year student pursuing a Bachelor's degree in Computer Science and Engineering at the Faculty of Engineering, University of Porto. With a passion for programming and a strong desire to learn, I'm eager to embark on new professional experiences.
 
 As a student in the field of Computer Science, I engage in programming daily, continuously honing my skills. I thrive in team environments, having already contributed to group projects during my studies. I also enjoy working on personal projects, which drives me to explore new programming languages and expand my knowledge.

@@ -5,6 +5,7 @@ import About from './components/About';
 import Work from './components/Work';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Skills from './components/Skills';
 import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
+      <Skills/>
       <Work/>
       <Contact/>
       <ScrollToTop/>
