@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className=' p-2 md:p-4 justify-center flex items-center'>
     <div name="about" className=' bg-[#4825c7]/80 md:p-8 p-4 rounded-3xl m-4 max-w-[1240px]' >
-        <div className=' mx-auto grid md:grid-cols-2'>
+        <div className='mx-auto grid md:grid-cols-2'>
               <img className='flex mx-auto rounded-[10px]' src={person} alt='/'/>
                 
             <div className='flex flex-col justify-center md:p-4 p-2 '>
